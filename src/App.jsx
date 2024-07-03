@@ -2,7 +2,7 @@ import { TypeAnimation } from "react-type-animation";
 
 function App() {
   return (
-    <body className="m-0 p-0 h-screen bg-gradient-to-r from-slate-900 to-slate-700">
+    <body className="m-0 p-0 h-screen	 bg-gradient-to-r from-slate-900 to-slate-700">
       <main
         className="flex flex-col justify-center items-center pt-24 animate-fade-up animate-once
 "
@@ -18,7 +18,7 @@ function App() {
           </figure>
 
           <div className="card-body flex flex-col justify-center items-center text-slate-50 gap-5 font-mono mt-20 ">
-            <h2 className="card-title text-4xl">SorrowInApril</h2>
+            <h2 className="card-title text-3xl">SorrowInApril</h2>
             <div className="flex flex-wrap gap-4">
               <span className="badge badge-accent badge-outline">Anime</span>
               <span className="badge badge-accent badge-outline">Games</span>
