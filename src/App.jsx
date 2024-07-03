@@ -4,7 +4,7 @@ function App() {
   return (
     <body className="m-0 p-0 h-screen	 bg-gradient-to-r from-slate-900 to-slate-700">
       <main
-        className="flex flex-col justify-center items-center pt-24 animate-fade-up animate-once
+        className="flex flex-col justify-center items-center pt-12 animate-fade-up animate-once
 "
       >
         <div className="card card-compact bg-base-100 shadow-xl max-w-md mx-8 	border-zinc-700 border-2  ">
