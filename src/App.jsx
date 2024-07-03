@@ -1,33 +1,67 @@
+import { TypeAnimation } from "react-type-animation";
+
 function App() {
   return (
-    <body className="m-0 p-0 box box-border">
-      <main className="flex flex-col justify-center items-center pt-24">
-        <div className="card card-compact bg-base-100 w-1/5 shadow-xl ">
+    <body className="m-0 p-0 h-screen bg-gradient-to-r from-slate-900 to-slate-700">
+      <main
+        className="flex flex-col justify-center items-center pt-24 animate-fade-up animate-once
+"
+      >
+        <div className="card card-compact bg-base-100 shadow-xl max-w-md mx-8 	border-zinc-700 border-2  ">
           <figure>
-            <img src="https://i.imgur.com/iPt63Zb.png" alt="Shoes" />
-            <div className="avatar absolute top-20">
-              <div className="w-28 ring-primary ring-offset-base-100 w-24 rounded-full ring ring-offset-2">
+            <img src="https://i.imgur.com/iPt63Zb.png" alt="Banner" />
+            <div className="avatar absolute top-14 lg:top-20 transform  right-30 lg:w-28 ">
+              <div className="w-28 ring-primary ring-offset-base-100 rounded-full ring ring-offset-2 ">
                 <img src="https://pbs.twimg.com/media/GQySi9WbgAA2qwo?format=jpg&name=small" />
               </div>
             </div>
           </figure>
 
-          <div className="card-body flex flex-col justify-center items-center text-slate-50 gap-4 font-mono mt-20">
-            <h2 className="card-title text-4xl">Thai Pham</h2>
-            <div className="flex flex-row gap-4">
+          <div className="card-body flex flex-col justify-center items-center text-slate-50 gap-5 font-mono mt-20 ">
+            <h2 className="card-title text-4xl">SorrowInApril</h2>
+            <div className="flex flex-wrap gap-4">
               <span className="badge badge-accent badge-outline">Anime</span>
-              <span className="badge badge-accent badge-outline">Gachas</span>
-              <span className="badge badge-accent badge-outline">Figures</span>
-              <span className="badge badge-accent badge-outline">Badge</span>
-              <span className="badge badge-accent badge-outline">Badge</span>
+              <span className="badge badge-accent badge-outline">Games</span>
+              <span className="badge badge-accent badge-outline">Coding</span>
             </div>
-            <p>
-              If a dog chews shoes whose shoes does he choose?fsdfsf If a dog
-              chews shoes whose shoes does he choose?fsdfsf If a dog chews shoes
-              whose shoes does he choose?fsdfsf
-            </p>
-            <div className="card-actions justify-end">
-              <button className="btn btn-primary">Buy Now</button>
+            <TypeAnimation
+              sequence={[
+                "Yo! I'm Thai and I build stuffs!",
+                1000,
+                "Yo! I'm Thai and I build stuffs!",
+                1000,
+                "Yo! I'm Thai and I build stuffs!",
+                1000,
+              ]}
+              wrapper="span"
+              speed={20}
+              className="text-sm font-bold"
+              repeat={Infinity}
+            />
+            <div className="card-actions flex flex-col justify-center items-center gap-4">
+              <a href="https://github.com/thaph03">
+                <button className="btn btn-outline  btn-wide">Github</button>
+              </a>
+              <a href="https://osu.ppy.sh/users/30229129">
+                <button className="btn btn-outline btn-secondary btn-wide">
+                  OSU
+                </button>
+              </a>
+              <a href="https://myanimelist.net/profile/SorrowInApril">
+                <button className="btn btn-outline btn-info btn-wide">
+                  MyAnimeList
+                </button>
+              </a>
+              <a href="https://myfigurecollection.net/profile/thainendolover03">
+                <button className="btn btn-outline btn-accent btn-wide">
+                  MyFigureCollection
+                </button>
+              </a>
+              <a href="https://steamcommunity.com/id/SorrowInApril/">
+                <button className="btn btn-outline btn-info btn-wide">
+                  Steam
+                </button>
+              </a>
             </div>
           </div>
         </div>
