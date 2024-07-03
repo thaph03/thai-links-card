@@ -26,11 +26,11 @@ function App() {
             </div>
             <TypeAnimation
               sequence={[
-                "Yo! I'm Thai and I build stuffs!",
+                "Yo! I'm Thai",
                 1000,
-                "Yo! I'm Thai and I build stuffs!",
+                "I build stuffs sometimes!",
                 1000,
-                "Yo! I'm Thai and I build stuffs!",
+                "Welcome to my links card!",
                 1000,
               ]}
               wrapper="span"
