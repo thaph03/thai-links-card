@@ -57,9 +57,9 @@ function App() {
                   MyFigureCollection
                 </button>
               </a>
-              <a href="https://steamcommunity.com/id/SorrowInApril/">
+              <a href="https://x.com/sia03xd">
                 <button className="btn btn-outline btn-info btn-wide">
-                  Steam
+                  Twitter
                 </button>
               </a>
             </div>
