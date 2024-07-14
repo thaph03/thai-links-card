@@ -12,7 +12,7 @@ function App() {
             <img src="https://i.imgur.com/iPt63Zb.png" alt="Banner" />
             <div className="avatar absolute top-14 lg:top-20 transform  right-30 lg:w-28 ">
               <div className="w-28 ring-primary ring-offset-base-100 rounded-full ring ring-offset-2 ">
-                <img src="https://pbs.twimg.com/media/GQySi9WbgAA2qwo?format=jpg&name=small" />
+                <img src="https://pbs.twimg.com/profile_images/1812328840775016448/iy6siAgr_400x400.jpg" />
               </div>
             </div>
           </figure>
