@@ -39,25 +39,31 @@ function App() {
               repeat={Infinity}
             />
             <div className="card-actions flex flex-col justify-center items-center gap-4">
-              <a href="https://github.com/thaph03">
+              <a href="https://github.com/thaph03" target="_blank">
                 <button className="btn btn-outline  btn-wide">Github</button>
               </a>
-              <a href="https://osu.ppy.sh/users/30229129">
+              <a href="https://osu.ppy.sh/users/30229129" target="_blank">
                 <button className="btn btn-outline btn-secondary btn-wide">
                   OSU
                 </button>
               </a>
-              <a href="https://myanimelist.net/profile/SorrowInApril">
+              <a
+                href="https://myanimelist.net/profile/SorrowInApril"
+                target="_blank"
+              >
                 <button className="btn btn-outline btn-info btn-wide">
                   MyAnimeList
                 </button>
               </a>
-              <a href="https://myfigurecollection.net/profile/thainendolover03">
+              <a
+                href="https://myfigurecollection.net/profile/thainendolover03"
+                target="_blank"
+              >
                 <button className="btn btn-outline btn-accent btn-wide">
                   MyFigureCollection
                 </button>
               </a>
-              <a href="https://x.com/sia03xd">
+              <a href="https://x.com/sia03xd" target="_blank">
                 <button className="btn btn-outline btn-info btn-wide">
                   Twitter
                 </button>
