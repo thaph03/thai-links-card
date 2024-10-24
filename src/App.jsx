@@ -2,9 +2,9 @@ import { TypeAnimation } from "react-type-animation";
 
 function App() {
   return (
-    <body className="m-0 p-0 h-screen	 bg-gradient-to-r from-slate-900 to-slate-700">
+    <body className="min-h-screen bg-gradient-to-r from-slate-900 to-slate-700 flex items-center justify-center">
       <main
-        className="flex flex-col justify-center items-center pt-12 animate-fade-up animate-once
+        className="flex flex-col justify-center items-center animate-fade-up space-y-6
 "
       >
         <div className="card card-compact bg-base-100 shadow-xl max-w-md mx-8 	border-zinc-700 border-2  ">
